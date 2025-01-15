@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(249, 225, 225);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    
+    background-color: blanchedalmond;
+}
+
+h1{
+    font-size: 2.5em;
+    font-weight: bold;
+    
+}
+span{
+    color: orangered;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 2em;
+    padding-top: 5px;
+    
+}
+li:hover{
+    border-bottom: 5px solid orangered;
+}
+#btn1{
+    width: 120px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+}
+#btn2{
+    width: 120px;
+    height: 50px;
+    background-color: orangered;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+}
+.hero{
+display: flex;
+justify-content: space-between;
+padding: 70px 60px;
+}
+.right img{
+    width: 380px;
+}
+.left{
+    width: 45%;
+}
+.left h1{
+    font-size: 6em;
+    font-weight: bold;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.left p{
+    font-size: 2em;
+    color: gray;
+    padding-bottom: 4%;
+}
+.right{
+    width: 35%;
+animation-name: right;
+animation-duration: 3s;
+animation-iteration-count: view;
+}
+/* section three */
+.pd{
+    text-align: center;
+    font-size: 2em;
+}
+.dishes{
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+    margin-right: 4%;
+    margin-left: 4%;
+    justify-content: space-between;
+   
+}
+.dish1{
+    width: 400px;
+    height: 550px;
+   margin-top: 2%;
+   margin-bottom: 4%;
+    background-color: white;
+}
+.dish2{
+    width: 400px;
+    height: 550px;
+   margin-top: 2%;
+   margin-bottom: 4%;
+    background-color: white;
+}
+.dish3{
+    width: 400px;
+    height: 550px;
+   margin-top: 2%;
+   margin-bottom: 4%;
+    background-color: white;
+}
+.dish1 h1{
+    font-size: 2.5em;
+    text-align: center;
+}
+.dish1 p{
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+.dish2 h1{
+    font-size: 2.5em;
+    text-align: center;
+}
+.dish2 p{
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+.dish3 h1{
+    font-size: 2.5em;
+    text-align: center;
+}
+.dish3 p{
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.dish1 img{
+    width: 400px;
+    height: 420px;
+    margin-bottom: 5%;
+    
+}
+.dish2 img{
+    width: 400px;
+    height: 420px;
+    margin-bottom: 5%;
+    
+}
+.dish3 img{
+    width: 400px;
+    height: 420px;
+    margin-bottom: 5%;
+    
+}
+@keyframes right{
+    from{
+        transform: translate(180px);
+    }
+    to{
+        transform: translate(0px);
+    }
+}
